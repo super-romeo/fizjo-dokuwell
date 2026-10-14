@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fizjo.dokuwell.com/sitemap.xml
