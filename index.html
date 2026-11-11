@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Program dla gabinetu fizjoterapii: elektroniczna dokumentacja medyczna, kalendarz zapisów pacjentów i plany rehabilitacji w jednym miejscu.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Gabinet Fizjo</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Gabinet Fizjo</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Program dla gabinetu fizjoterapii — dokumentacja, zapisy i plan rehabilitacji w jednym miejscu</h1>
-    <p class="sub">Elektroniczna dokumentacja medyczna pacjenta, kalendarz wizyt z przypomnieniami i plan rehabilitacji z ćwiczeniami do domu — dla gabinetu z jednym lub kilkoma fizjoterapeutami.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> dla gabinetu z jednym lub kilkoma fizjoterapeutami</p>
+      <h1 class="rise" style="--i:1" data-len="long">Program dla gabinetu fizjoterapii&nbsp;<span class="soft">— dokumentacja, zapisy i plan rehabilitacji w jednym miejscu</span></h1>
+      <p class="rise" style="--i:2">Elektroniczna dokumentacja medyczna pacjenta, kalendarz wizyt z przypomnieniami i plan rehabilitacji z ćwiczeniami do domu — dla gabinetu z jednym lub kilkoma fizjoterapeutami.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">Gabinet Fizjo</text><line x1="130" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" font-weight="600" fill="#0a1524">Wywiad</text><rect x="130" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="402" font-size="32" font-weight="600" fill="#0a1524">badanie</text><rect x="130" y="480" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="512" font-size="32" font-weight="600" fill="#0a1524">rozpoznanie</text><rect x="200" y="580" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="320" font-size="34" font-weight="600" fill="#0a1524">Kalendarz</text><rect x="730" y="400" width="52" height="220" rx="8" fill="#ffffff" /><rect x="820" y="470" width="52" height="150" rx="8" fill="#b9c3d2" /><rect x="910" y="360" width="52" height="260" rx="8" fill="#12397a" /><rect x="1000" y="440" width="52" height="180" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Gabinetu fizjoterapii</dd></div>
+      <div><dt>Dokumentacja</dt><dd>Elektroniczna dokumentacja medyczna</dd></div>
+      <div><dt>Program</dt><dd>W jednym programie</dd></div>
+      <div><dt>Usługa</dt><dd>Jest w przygotowaniu</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Dokumentacja pacjenta</b><span>Wywiad, badanie, rozpoznanie i przebieg każdej wizyty w elektronicznej dokumentacji medycznej.</span><br><a class="btn" href="price.html" data-ev="feature_edm">Tego potrzebuję</a></div>
-      <div class="card"><b>Zapisy i przypomnienia</b><span>Kalendarz fizjoterapeutów, zapisy pacjentów i przypomnienie o wizycie dzień wcześniej.</span><br><a class="btn" href="price.html" data-ev="feature_zapisy">Tego potrzebuję</a></div>
-      <div class="card"><b>Plan rehabilitacji</b><span>Plan terapii na kolejne tygodnie i ćwiczenia do domu wysyłane pacjentowi.</span><br><a class="btn" href="price.html" data-ev="feature_plan">Tego potrzebuję</a></div>
-      <div class="card"><b>Wizyty i płatności</b><span>Pakiety wizyt, opłacone i nieopłacone wizyty, zestawienie miesięczne gabinetu.</span><br><a class="btn" href="price.html" data-ev="feature_rozliczenia">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" font-weight="600" fill="#0a1524">Dokumentacja pacjenta</text><rect x="120" y="210" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,232 140,244 156,222" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="184" y="220" width="420" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="310" width="44" height="44" rx="8" fill="#12397a" /><polyline points="130,332 140,344 156,322" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="184" y="320" width="300" height="24" rx="12" fill="#b9c3d2" /><rect x="120" y="410" width="44" height="44" rx="8" fill="#dfe8f7" /><rect x="184" y="420" width="360" height="24" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Dokumentacja pacjenta</h3><p>Wywiad, badanie, rozpoznanie i przebieg każdej wizyty w elektronicznej dokumentacji medycznej.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_edm">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Zapisy</text><rect x="130" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="300" width="100" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Zapisy i przypomnienia</h3><p>Kalendarz fizjoterapeutów, zapisy pacjentów i przypomnienie o wizycie dzień wcześniej.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zapisy">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" font-weight="600" fill="#0a1524">Plan rehabilitacji</text><rect x="120" y="220" width="320" height="28" rx="10" fill="#dde2ea" /><rect x="120" y="280" width="240" height="28" rx="10" fill="#b9c3d2" /><rect x="120" y="340" width="280" height="28" rx="10" fill="#dde2ea" /><rect x="120" y="400" width="180" height="28" rx="10" fill="#dde2ea" /><circle cx="600" cy="360" r="62" fill="#dfe8f7" /><polyline points="566,360 592,388 640,328" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Plan rehabilitacji</h3><p>Plan terapii na kolejne tygodnie i ćwiczenia do domu wysyłane pacjentowi.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_plan">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Wizyty</text><text x="120" y="240" font-size="32" font-weight="600" fill="#0a1524">opłacone</text><rect x="120" y="268" width="460" height="40" rx="20" fill="#12397a" /><text x="120" y="370" font-size="32" font-weight="600" fill="#0a1524">nieopłacone</text><rect x="120" y="398" width="300" height="40" rx="20" fill="#dde2ea" /><rect x="120" y="460" width="520" height="24" rx="12" fill="#b9c3d2" /></svg></div>
+        <h3>Wizyty i płatności</h3><p>Pakiety wizyt, opłacone i nieopłacone wizyty, zestawienie miesięczne gabinetu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rozliczenia">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Pacjentka po rekonstrukcji ACL: wywiad i badanie zapisane przy pierwszej wizycie, plan na 8 tygodni, dwie wizyty w tygodniu w kalendarzu. Przypomnienie SMS dzień przed wizytą, zestaw ćwiczeń do domu po każdej sesji, pakiet 10 wizyt — opłacono 6.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Pacjentka po rekonstrukcji ACL: wywiad i badanie zapisane przy pierwszej wizycie, plan na 8 tygodni, dwie wizyty w tygodniu w kalendarzu. Przypomnienie SMS dzień przed wizytą, zestaw ćwiczeń do domu po każdej sesji, pakiet 10 wizyt — opłacono 6.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Wywiad</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">badanie</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Wizyty</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">pakiet 10 wizyt</text><rect x="170" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="248" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="326" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="404" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="482" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="560" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="638" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="716" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><text x="170" y="620" font-size="32" fill="#566174">opłacono</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>W Polsce działa wiele gabinetów fizjoterapii. Większość to małe gabinety z jednym lub kilkoma fizjoterapeutami. Każdy z nich prowadzi dokumentację medyczną pacjentów, zapisuje wizyty i układa plan terapii — często w kilku osobnych narzędziach: kalendarzu w telefonie, arkuszu i papierowych kartach.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>W Polsce działa wiele gabinetów fizjoterapii. Większość to małe gabinety z jednym lub kilkoma fizjoterapeutami. Każdy z nich prowadzi dokumentację medyczną pacjentów, zapisuje wizyty i układa plan terapii — często w kilku osobnych narzędziach: kalendarzu w telefonie, arkuszu i papierowych kartach.</p>
     <p>Gabinet Fizjo łączy te trzy rzeczy w jednym programie. Dokumentacja pacjenta jest elektroniczna: przy pierwszej wizycie zapisujesz wywiad, badanie i rozpoznanie, a przy każdej kolejnej — przebieg zabiegu i zalecenia. Wszystko jest przypisane do pacjenta, z datą i nazwiskiem fizjoterapeuty, a cała historia leczenia jest widoczna przed wizytą.</p>
     <p>Kalendarz pokazuje grafik każdego fizjoterapeuty i gabinetów zabiegowych. Pacjent może zostać zapisany przez recepcję albo sam wybrać wolny termin. Dzień przed wizytą dostaje przypomnienie, dzięki czemu mniej wizyt przepada. Odwołana wizyta zwalnia termin od razu i można zaproponować go innemu pacjentowi.</p>
     <p>Plan rehabilitacji układa się na kolejne tygodnie: liczba wizyt, cele i ćwiczenia. Po sesji pacjent dostaje zestaw ćwiczeń do domu z opisem, a fizjoterapeuta przy następnej wizycie widzi, co było zalecone. Postęp terapii jest zapisany w dokumentacji, więc łatwo go pokazać pacjentowi albo lekarzowi kierującemu.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Gdy pacjent wraca po kilku miesiącach z nowym problemem, cała wcześniejsza dokumentacja jest pod ręką: poprzednie rozpoznania, przebyte zabiegi i efekty terapii. Nowy fizjoterapeuta w gabinecie nie musi pytać o wszystko od nowa. Program pozwala też szybko przygotować podsumowanie leczenia dla pacjenta albo dla lekarza, który go skierował, bez przepisywania notatek z kartek.</p>
     <p>Wdrożenie jest proste: listę pacjentów i zaplanowane terminy można zaimportować z arkusza, a grafik fizjoterapeutów ustawić w kilka minut. Program działa w przeglądarce na komputerze w recepcji i na telefonie fizjoterapeuty, bez instalowania niczego w gabinecie.</p>
     <p>Gabinet Fizjo jest przeznaczony dla prywatnych gabinetów fizjoterapii pracujących z pacjentami płacącymi za wizyty i pakiety. Sposób prowadzenia terapii, zakres dokumentacji i cennik wizyt ustala gabinet; program porządkuje pracę i oszczędza czas na papierach.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Czy program prowadzi elektroniczną dokumentację medyczną?</h3>
-    <p>Tak: wywiad, badanie, rozpoznanie i przebieg każdej wizyty są zapisane elektronicznie przy pacjencie.</p>
-    <h3>Czy pacjent może zapisać się sam?</h3>
-    <p>Tak, wybierając wolny termin w kalendarzu gabinetu; dzień przed wizytą dostaje przypomnienie.</p>
-    <h3>Ilu fizjoterapeutów obsługuje program?</h3>
-    <p>Od jednego do kilku — każdy ma swój grafik w kalendarzu gabinetu.</p>
-    <h3>Czy mogę przenieść dane pacjentów z innego programu?</h3>
-    <p>Tak, listę pacjentów i terminy można zaimportować z arkusza.</p>
-    <h3>Czy mogę już korzystać z programu?</h3>
-    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy gabinety jej potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Czy program prowadzi elektroniczną dokumentację medyczną?</h3><p>Tak: wywiad, badanie, rozpoznanie i przebieg każdej wizyty są zapisane elektronicznie przy pacjencie.</p></div>
+      <div class="split flip"><h3>Czy pacjent może zapisać się sam?</h3><p>Tak, wybierając wolny termin w kalendarzu gabinetu; dzień przed wizytą dostaje przypomnienie.</p></div>
+      <div class="split flip"><h3>Ilu fizjoterapeutów obsługuje program?</h3><p>Od jednego do kilku — każdy ma swój grafik w kalendarzu gabinetu.</p></div>
+      <div class="split flip"><h3>Czy mogę przenieść dane pacjentów z innego programu?</h3><p>Tak, listę pacjentów i terminy można zaimportować z arkusza.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać z programu?</h3><p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy gabinety jej potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodaj pierwszego pacjenta</h2>
-    <p><label>Ilu fizjoterapeutów pracuje w gabinecie<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>1</option><option>2–3</option><option>4–6</option><option>Więcej niż 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj pacjenta</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodaj pierwszego pacjenta</h2>
+    </div>
+    <div class="tile stack">
+      <label>Ilu fizjoterapeutów pracuje w gabinecie<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>1</option><option>2–3</option><option>4–6</option><option>Więcej niż 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj pacjenta</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Gabinet Fizjo</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">Program do prowadzenia dokumentacji i zapisów. Za przebieg terapii i treść dokumentacji medycznej odpowiada gabinet i fizjoterapeuta.</p>
+  <p>Program do prowadzenia dokumentacji i zapisów. Za przebieg terapii i treść dokumentacji medycznej odpowiada gabinet i fizjoterapeuta.</p>
 </div></footer>
 
 </body>
